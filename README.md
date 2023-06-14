@@ -7,11 +7,13 @@ Required TG bot token and Google cloud API key to get this bot to work.
 
 ## Usage examples:
 
-### input: "/translate uk Hello World!"
+Note: you need to specify target language and source text only, the source language will be detected automatically.
+
+### input: "/translate en Привіт Світ!"
 ```
-en: Hello World!
--------------
 uk: Привіт Світ!
+-------------
+en: Hello World!
 ```
 
 ### input: "/translate fr Hello World!"
